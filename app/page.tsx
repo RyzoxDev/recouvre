@@ -41,7 +41,7 @@ export default function Home() {
       </ul>
 
       <a
-        href="#"
+        href="/api/checkout"
         className="mt-10 block rounded-sm bg-brique px-6 py-4 text-center text-lg font-semibold text-papier"
       >
         Commencer, c'est gratuit
