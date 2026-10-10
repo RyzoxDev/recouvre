@@ -49,6 +49,13 @@ export default function Home() {
       <p className="mt-3 text-center text-sm text-gris">
         29 €/mois ensuite, sans engagement.
       </p>
+
+      <nav className="mt-12 flex flex-wrap gap-x-5 gap-y-2 border-t border-filet pt-6 text-sm text-gris">
+        <a href="/mentions-legales">Mentions légales</a>
+        <a href="/cgv">CGV</a>
+        <a href="/confidentialite">Confidentialité</a>
+      </nav>
     </main>
+
   );
 }
