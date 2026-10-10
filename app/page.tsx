@@ -41,15 +41,14 @@ export default function Home() {
       </ul>
 
       <a
-        href="/api/checkout"
+        href="/commencer"
         className="mt-10 block rounded-sm bg-brique px-6 py-4 text-center text-lg font-semibold text-papier"
       >
-        Réserver ma place, 29 €/mois
+        Commencer, c'est gratuit
       </a>
       <p className="mt-3 text-center text-sm text-gris">
-        Accès anticipé, sans engagement, remboursé sur simple demande.
+        3 questions, puis 29 €/mois si tu continues. Sans engagement.
       </p>
-
 
       <nav className="mt-12 flex flex-wrap gap-x-5 gap-y-2 border-t border-filet pt-6 text-sm text-gris">
         <a href="/mentions-legales">Mentions légales</a>
