@@ -23,7 +23,11 @@ export default function Formulaire() {
       options: { emailRedirectTo: `${window.location.origin}/auth/callback` },
     });
 
+    if (error) {
+      alert(error.message);
+    }
     setEtat(error ? "erreur" : "envoye");
+
   }
 
   if (etat === "envoye") {
